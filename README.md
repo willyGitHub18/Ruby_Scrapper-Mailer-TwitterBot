@@ -42,21 +42,25 @@ You should be ready to Gandalf the fuck out of your felloship.
 
 ### Tree
 
-*
+**(Please don't use each file one by one it won't be efficient. Just run *app.rb*)**
+
 ultimate_townhall_lyon_X
 ├── .gitignore
 ├── README.md
 ├── Gemfile
 ├── Gemfile.lock
-├── app.rb **(Please don't use each file one by one it won't be efficient. Just run *app.rb*)**
+├── app.rb
 ├── db
 │   └── townhalls.csv
 └── lib
     ├── app
-        ├── townhalls_scrapper.rb **(scraps all the emails of the area you like, just modify them there)**
-        ├── townhalls_mailer.rb **(using the scraper, spam the townhalls)**
-        └── townhalls_follower.rb **(mailing was not enough? go on twitter then. Follow, like at will)**
+        ├── townhalls_scrapper.rb
+        ├── townhalls_mailer.rb
+        └── townhalls_follower.rb
 
+townhalls_scrapper : *(scraps all the emails of the area you like, just modify them there)*
+townhalls_mailer : *(using the scraper, spam the townhalls)*
+townhalls_follower : *(mailing was not enough? go on twitter then. Follow, like at will)*
 
 ### Contributing
 
