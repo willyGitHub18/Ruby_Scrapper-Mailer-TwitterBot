@@ -7,7 +7,8 @@ $:.unshift File.expand_path("./../lib/app", __FILE__) # On ajoute directement au
 require 'townhalls_scrapper'
 #require 'townhalls_mailer'
 #require 'townhalls_adder_to_db'
-#require 'townhalls_follower'
+require 'townhalls_follower'
 
 Scrapper.new.store_json
 #Mailer.new.app_mail
+BotTwitter.new.search_handle_and_follow
