@@ -1,68 +1,72 @@
-# Ultimate Townhall Communication 
+# Ultimate Townhall Lyon X
 
-One Paragraph of project description goes here
-Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-Prerequisites
+Ultimate is a scraper, mailer, twitter bot solution created for CEO who need occupational activities (cause you know CEO don't do much :smirk:) :
 
-What things you need to install the software and how to install them
+- Open a folder
+- Run your app
+- Watch the magic happen
 
-Give examples
+But let's start over and take it step by step
 
-Installing
+## Getting Started
 
-A step by step series of examples that tell you how to get a development env running
+[Not a scraping ninja](https://giphy.com/gifs/cheezburger-baby-ninja-flip-ErdfMetILIMko) but more of a [grumpy panda](https://media.giphy.com/media/ToMjGpIYtgvMP38WTFC/giphy.gif) ?
 
-Say what the step will be
+For you the Internet is just what you use for online-dating and ordering pizzas ?
 
-Give the example
+Just listen to our lovely japanese anime like voice ([nani??](https://gph.is/2eJsE9X))
 
-And repeat
 
-until finished
+### Installation
 
-End with an example of getting some data out of the system or using it for a little demo
-Running the tests
+As you can see on our lovely repository, two folders appear before your eyes.
 
-Explain how to run the automated tests for this system
-Break down into end to end tests
+We use *lib* and *app* if you want to navigate the code of each of our apps individualy. The *db* file will give you satisfaction if you are the reader type (like my grandma)
 
-Explain what these tests test and why
+Your really really want to know how the repository is organized? Just relax and wait for the **tree** part.
 
-Give an example
+If your goal is only to befriend all your representatives, then only focus on the root of the repository.
 
-And coding style tests
+Make sure to ignore the .gitignore file (or don't but be ready to face our mighty heroes)
 
-Explain what these tests test and why
+Open your terminal and :
 
-Give an example
+```sh
+$ bundle install
+```
 
-Deployment
+You should be ready to Gandalf the fuck out of your felloship.
 
-Add additional notes about how to deploy this on a live system
-Built With
+"How do I do that" I hear ? Simply run the *app.rb* and [tadaaa](http://gph.is/2c9USIR)
 
-    Dropwizard - The web framework used
-    Maven - Dependency Management
-    ROME - Used to generate RSS Feeds
+### Tree
 
-Contributing
+*
+ultimate_townhall_lyon_X
+├── .gitignore
+├── README.md
+├── Gemfile
+├── Gemfile.lock
+├── app.rb **(Please don't use each file one by one it won't be efficient. Just run *app.rb*)**
+├── db
+│   └── townhalls.csv
+└── lib
+    ├── app
+        ├── townhalls_scrapper.rb **(scraps all the emails of the area you like, just modify them there)**
+        ├── townhalls_mailer.rb **(using the scraper, spam the townhalls)**
+        └── townhalls_follower.rb **(mailing was not enough? go on twitter then. Follow, like at will)**
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-Versioning
 
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-Authors
+### Contributing
 
-    Billie Thompson - Initial work - PurpleBooth
+Contributors of the project?
+  - Ludovic Ploton Luthor (Loundness)
+  - Alexys Meunier (Alxys)
+  - Willy Garcia (willyGitHub18)
 
-See also the list of contributors who participated in this project.
-License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
-Acknowledgments
+# The End
 
-    Hat tip to anyone whose code was used
-    Inspiration
-    etc
+Don't like the README ?
+Please see : <a href="https://www.youtube.com/watch?v=qdL5gMETIps></a>
