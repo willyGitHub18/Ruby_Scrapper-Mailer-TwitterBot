@@ -46,29 +46,29 @@ You should be ready to Gandalf the fuck out of your felloship.
 
 ultimate_townhall*separate paragraph*
 
-├── .gitignore*separate paragraph*
+├── .gitignore
 
-├── README.md*separate paragraph*
+├── README.md
 
-├── Gemfile*separate paragraph*
+├── Gemfile
 
-├── Gemfile.lock*separate paragraph*
+├── Gemfile.lock
 
-├── app.rb*separate paragraph*
+├── app.rb
 
-├── db*separate paragraph*
+├── db
 
-│   └── townhalls.csv*separate paragraph*
+│   └── townhalls.csv
 
-└── lib*separate paragraph*
+└── lib
 
-    ├── app*separate paragraph*
+    ├── app
 
-        ├── townhalls_scrapper.rb*separate paragraph*
+        ├── townhalls_scrapper.rb
 
-        ├── townhalls_mailer.rb*separate paragraph*
+        ├── townhalls_mailer.rb
 
-        └── townhalls_follower.rb*separate paragraph*
+        └── townhalls_follower.rb
 
 
 townhalls_scrapper : *(scraps all the emails of the area you like, just modify them there)*
