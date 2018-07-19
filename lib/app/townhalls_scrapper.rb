@@ -61,13 +61,10 @@ class Scrapper
 
   # Méthode pour conversion vers JSON
   def store_json
-    File.open("../../db/townhalls.JSON", "w") do |x| # ouvre fichier emails.json en mode write only
+    File.open("db/townhalls.JSON", "w") do |x| # ouvre fichier emails.json en mode write only attention le chemin est à partir du fichier app qui lance le scrap
       x.write(JSON.pretty_generate(get_the_email)) # Crée notre fichier JSON
     end
-    file = File.read('../../db/townhalls.JSON') # Récupère le fichier JSON pour accéder à son contenu
+    file = File.read('db/townhalls.JSON') # Récupère le fichier JSON pour accéder à son contenu attention le chemin est à partir du fichier app qui lance le scrap
       v = JSON.parse(file) # Lis le fichier
   end
 end
-
-scrapper = Scrapper.new
-scrapper.store_json
