@@ -44,31 +44,19 @@ You should be ready to Gandalf the fuck out of your felloship.
 
 **(Please don't use each file one by one it won't be efficient. Just run *app.rb*)**
 
-ultimate_townhall
-
-├── .gitignore
-
-├── README.md
-
-├── Gemfile
-
-├── Gemfile.lock
-
+```
 ├── app.rb
-
 ├── db
-
-│   └── townhalls.csv
-
-└── lib
-
-    ├── app
-
-        ├── townhalls_scrapper.rb
-
-        ├── townhalls_mailer.rb
-
-        └── townhalls_follower.rb
+│   └── townhalls.JSON
+├── Gemfile
+├── Gemfile.lock
+├── lib
+│   ├── app
+│   │   ├── townhalls_follower.rb
+│   │   ├── townhalls_mailer.rb
+│   │   └── townhalls_scrapper.rb
+│   └── views
+└── README.md
 
 
 townhalls_scrapper : *(scraps all the emails of the area you like, just modify them there)*
