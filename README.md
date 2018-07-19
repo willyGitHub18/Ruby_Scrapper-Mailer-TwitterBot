@@ -44,7 +44,7 @@ You should be ready to Gandalf the fuck out of your felloship.
 
 **(Please don't use each file one by one it won't be efficient. Just run *app.rb*)**
 
-ultimate_townhall_lyon_X
+ultimate_townhall
 ├── .gitignore
 ├── README.md
 ├── Gemfile
@@ -57,6 +57,7 @@ ultimate_townhall_lyon_X
         ├── townhalls_scrapper.rb
         ├── townhalls_mailer.rb
         └── townhalls_follower.rb
+
 
 townhalls_scrapper : *(scraps all the emails of the area you like, just modify them there)*
 townhalls_mailer : *(using the scraper, spam the townhalls)*
