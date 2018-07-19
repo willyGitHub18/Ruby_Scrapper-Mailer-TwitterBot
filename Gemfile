@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+ruby '2.5.1'
+gem 'dotenv'
+gem 'gmail'
+gem 'google_drive'
+gem 'json'
+gem 'mail', '~> 2.7'
+gem 'nokogiri'
+gem 'pp'
+gem 'pry'
+gem 'rubocop'
+gem 'twitter'
