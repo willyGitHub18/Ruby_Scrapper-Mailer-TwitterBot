@@ -57,7 +57,7 @@ You should be ready to Gandalf the fuck out of your felloship.
 │   │   └── townhalls_scrapper.rb
 │   └── views
 └── README.md
-
+```
 
 townhalls_scrapper : *(scraps all the emails of the area you like, just modify them there)*
 
