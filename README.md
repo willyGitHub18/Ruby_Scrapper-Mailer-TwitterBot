@@ -44,7 +44,7 @@ You should be ready to Gandalf the fuck out of your felloship.
 
 **(Please don't use each file one by one it won't be efficient. Just run *app.rb*)**
 
-ultimate_townhall*separate paragraph*
+ultimate_townhall
 
 ├── .gitignore
 
