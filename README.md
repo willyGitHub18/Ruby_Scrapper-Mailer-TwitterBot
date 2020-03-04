@@ -1,4 +1,4 @@
-# Ultimate Townhall Lyon X
+# Ultimatate - Scrapper-Mailer-TwitterBot
 
 
 Ultimate is a scraper, mailer, twitter bot solution created for CEO who need occupational activities (cause you know CEO don't do much :smirk:) :
